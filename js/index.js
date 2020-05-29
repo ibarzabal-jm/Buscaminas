@@ -1,4 +1,4 @@
-var tablero = document.getElementById("tablero");
+var contenedorTablero = document.getElementById("tablero");
 
 
 
@@ -25,10 +25,10 @@ for (i = 0; i < matriz.length; i++)
 {
     for (var j = 0; j < matriz[i].length; j++)
     {
-        tablero.innerHTML += (matriz[i][j]);
+        contenedorTablero.innerHTML += (matriz[i][j]);
     }
 
-    tablero.innerHTML +=`<br/>`
+    contenedorTablero.innerHTML +=`<br/>`;
 }
 
 /*
