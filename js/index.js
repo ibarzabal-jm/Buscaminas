@@ -4,6 +4,8 @@ const COLUMNAS = 10;
 let contenedorTablero = document.getElementById("tablero");
 contenedorTablero.innerHTML = ''
 
+let contenedorTablero = document.querySelector('#tablero');
+
 
 /*
 
