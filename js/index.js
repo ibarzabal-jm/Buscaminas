@@ -5,7 +5,7 @@ let contenedorTablero = document.getElementById("tablero");
 contenedorTablero.innerHTML = ''
 
 
-
+/*
 
 function crearTablero(){
     tablero= new Array(FILAS);
@@ -43,4 +43,8 @@ function mostrarTablero(tablero){
 
     }
 }
+
+
+
+*/
 
